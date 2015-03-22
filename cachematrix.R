@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## This function will create an enhanced matrix with capability to cache its inverse
 
 #' Create a new matrix type with builing cache for inverse
@@ -45,8 +42,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(mxInstance) #Push the result to cache
   return (mxInstance)
 }
-
-
-#------------------------------------
-# Test fixture - Uncomment 
-#------------------------------------
